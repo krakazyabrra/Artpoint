@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Відправте відгук</title>
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="content">
+        <header class="header">
+            <div class="logo">
+                <a href="../index.html">
+                    <img class="logo__image" src="../../assets/header/logo.svg" alt="logo"/>
+                </a>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a href="product.html" class="menu__link">
+                            Продукція
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="discount.html" class="menu__link">
+                            Акції
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="author.html" class="menu__link">
+                            Про нас
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link">
+                            Відгук на придбаний товар
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main wrapper__main">
+            <form name="Відгук на придбаний товар" accept-charset="utf-8">
+                <fieldset>
+                    <legend>Відгук на придбаний товар</legend>
+                    <fieldset>
+                        <legend>Анкета</legend>
+                        <label>Ім'я користувача:</label>
+                        <input type="text" name="lastname" maxlength="20" placeholder="Введіть ім'я користувача"> <br><br>
+                        <label>Вам сподобалась якість товару?</label> <br>
+                        <input type="radio" name="quality"> Так
+                        <input type="radio" name="quality"> Ні <br>
+                        <label>Вам сподобалась ціна товару?</label> <br>
+                        <input type="radio" name="price"> Так
+                        <input type="radio" name="price"> Ні <br>
+                        <label>Якщо ні, то яку б суму ви готові віддати за товару?</label> <br>
+                        <input type="text" name="sum" maxlength="20" placeholder="Введіть суму для товару"> <br><br>
+                        <label>Кому ви рекомендуєте наш товар?</label> <br>
+                        <input type="checkbox" name="recommend"> Друзям <br>
+                        <input type="checkbox" name="recommend"> Батькам <br>
+                        <input type="checkbox" name="recommend"> Пересічному громадянину<br><br>
+                        <label>Оцінка по 5-бальній шкалі:</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select> <br> <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Контактні дані</legend>
+                        <label>е-mail:</label>
+                        <input type="email" name="email"> <br><br>
+                        <label>Телефон:</label>
+                        <input type="tel" name="telephon" value="+380(__)_______"> <br><br>
+                        <label>Пароль:</label>
+                        <input type="password" name="password"> <br><br>
+                        <label>Адреса:</label>
+                        <textarea cols="25" rows="5" required> </textarea><br><br>
+                    </fieldset>
+                    <br>
+                    <input type="checkbox" name="acc"> Даю згоду на обробку моїх даних<br>
+                    <input type="checkbox" name="news"> Підписуюся на новини від нашої компанії<br>
+                    <input type="submit" name="submit" value="Відправити">
+                </fieldset>
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="footer__contact">
+                <div class="footer-title">
+                    Контакти
+                </div>
+                <ul class="footer__menu">
+                    <li>
+                        Фізична адреса: Сагайдачного 58
+                    </li>
+                    <li>
+                        Телефон: 0984967672
+                    </li>
+                    <li>
+                        Електронна адреса: mikacaakerman@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__map">
+                <div class="footer-title">
+                    Карта
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83404.98051040083!2d31.803840519929267!3d49.2118337376351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d140616c4c4401%3A0x87baa02ce135bf2c!2z0KHQvNGW0LvQsCwg0KfQtdGA0LrQsNGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCAyMDcwMA!5e0!3m2!1suk!2sua!4v1699465634087!5m2!1suk!2sua"
+                        width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
